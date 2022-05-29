@@ -1,4 +1,4 @@
-window.onpageshow = function () {
+$(function () {
   const toCommaString = (number) => {
     return number.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
   };
@@ -38,4 +38,4 @@ window.onpageshow = function () {
       $(".second__step__wrap").css("display", "none");
     }
   });
-};
+});
