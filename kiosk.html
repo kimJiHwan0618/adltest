@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADL - 키오스크</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/kiosk.css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  </head>
+  <body>
+    <div id="mobile__view">
+      <main>
+        <div class="main__inner">
+          <p class="f__light notice__txt">
+            '<span class="random__text">블루베리 주스</span>'를(을)<br />주문해
+            주세요
+          </p>
+          <ul class="tab__title__list on">
+            <li class="on">커피</li>
+            <li>티</li>
+            <li>생과일</li>
+            <li>푸드</li>
+          </ul>
+          <div class="coffee__menu__wrap img__wrap on">
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/에스프레소.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">에스프레소</dt>
+                <dd class="f__regular">2,500원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/아메리카노.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">아메리카노</dt>
+                <dd class="f__regular">3,000원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/에스프레소.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">라떼</dt>
+                <dd class="f__regular">3,500원</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="tea__menu__wrap img__wrap">
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/홍차.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">홍차</dt>
+                <dd class="f__regular">2,500원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/녹차.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">녹차</dt>
+                <dd class="f__regular">2,000원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/민트차.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">민트차</dt>
+                <dd class="f__regular">3,500원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/아이스티.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">아이스티</dt>
+                <dd class="f__regular">3,000원</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="fruit__menu__wrap img__wrap">
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/오렌지주스.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">오렌지 주스</dt>
+                <dd class="f__regular">2,000원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/수박주스.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">수박 주스</dt>
+                <dd class="f__regular">3,000원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/블루베리주스.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">블루베리 주스</dt>
+                <dd class="f__regular">4,500원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/딸기주스.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">딸기 주스</dt>
+                <dd class="f__regular">4,000원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/케일주스.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">케일 주스</dt>
+                <dd class="f__regular">4,500원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/당근주스.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">당근 주스</dt>
+                <dd class="f__regular">2,500원</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="food__menu__wrap img__wrap">
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/호밀빵.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">호밀빵</dt>
+                <dd class="f__regular">2,000원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/참깨빵.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">참깨빵</dt>
+                <dd class="f__regular">1,200원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/초코칩쿠키.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">초코칩 쿠키</dt>
+                <dd class="f__regular">1,500원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/아이싱쿠키.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">아이싱 쿠키</dt>
+                <dd class="f__regular">1,000원</dd>
+              </dl>
+            </div>
+            <div class="item">
+              <span class="img">
+                <img src="./assets/img/kiosk/도넛.png" alt="" />
+              </span>
+              <dl>
+                <dt class="f__regular">도넛</dt>
+                <dd class="f__regular">1,500원</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="order__history__wrap">
+            <header>
+              <span class="back__btn">
+                <img src="./assets/img/ic_back-arrow.svg" alt="뒤로가기 버튼" />
+              </span>
+              <h3 class="f__light">주문내역</h3>
+            </header>
+            <ul>
+              <li>
+                <dl>
+                  <dt class="f__light">블루베리 주스</dt>
+                  <dd class="f__light">4,500원</dd>
+                </dl>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./assets/js/bridge.js"></script>
+    <script src="./assets/js/kiosk.js"></script>
+  </body>
+</html>

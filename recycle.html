@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADL - 분리수거</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/separateCollection.css" />
+  </head>
+
+  <body>
+    <div id="mobile__view">
+      <main>
+        <div class="main__inner">
+          <p class="f__light notice__txt">쓰레기를<br />분리수거 해주세요.</p>
+          <ul id="drag__item__list">
+            <li
+              draggable="true"
+              ontouchstart="dragStart(event)"
+              ontouchmove="dragMove(event)"
+              ontouchend="drop(event)"
+            >
+              <img />
+            </li>
+            <li
+              draggable="true"
+              ontouchstart="dragStart(event)"
+              ontouchmove="dragMove(event)"
+              ontouchend="drop(event)"
+            >
+              <img />
+            </li>
+            <li
+              draggable="true"
+              ontouchstart="dragStart(event)"
+              ontouchmove="dragMove(event)"
+              ontouchend="drop(event)"
+            >
+              <img />
+            </li>
+            <li
+              draggable="true"
+              ontouchstart="dragStart(event)"
+              ontouchmove="dragMove(event)"
+              ontouchend="drop(event)"
+            >
+              <img />
+            </li>
+          </ul>
+          <ul id="drop__item__list">
+            <li data-index="0">
+              <img
+                src="./assets/img/separateCollection/trash_can.svg"
+                alt="캔 쓰레기통"
+              />
+            </li>
+            <li data-index="1">
+              <img
+                src="./assets/img/separateCollection/trash_plastic.svg"
+                alt="비닐 쓰레기통"
+              />
+            </li>
+            <li data-index="2">
+              <img
+                src="./assets/img/separateCollection/trash_glass.svg"
+                alt="유리 쓰레기통"
+              />
+            </li>
+            <li data-index="3">
+              <img
+                src="./assets/img/separateCollection/trash_paper.svg"
+                alt="종이 쓰레기통"
+              />
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+    <script src="./assets/js/bridge.js"></script>
+    <script src="./assets/js/separateCollection.js"></script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+@import "./reset.css";
+
+@font-face {
+  font-family: "Pretendard-ExtraBold";
+  src: url(../fonts/Pretendard-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: "Pretendard-Black";
+  src: url(../fonts/Pretendard-Black.otf);
+}
+
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url(../fonts/Pretendard-Bold.otf);
+}
+
+@font-face {
+  font-family: "Pretendard-SemiBold";
+  src: url(../fonts/Pretendard-SemiBold.otf);
+}
+
+@font-face {
+  font-family: "Pretendard-Medium";
+  src: url(../fonts/Pretendard-Medium.otf);
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url(../fonts/Pretendard-Regular.otf);
+}
+
+@font-face {
+  font-family: "Pretendard-Light";
+  src: url(../fonts/Pretendard-Light.otf);
+}
+
+@font-face {
+  font-family: "Pretendard-Thin";
+  src: url(../fonts/Pretendard-Thin.otf);
+}
+
+@font-face {
+  font-family: "Pretendard-ExtraLight";
+  src: url(../fonts/Pretendard-ExtraLight.otf);
+}
+
+#mobile__view {
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  color: #394041;
+}
+
+.f__bold {
+  font-family: "Pretendard-Bold";
+}
+
+.f__semibold {
+  font-family: "Pretendard-SemiBold";
+}
+
+.f__medium {
+  font-family: "Pretendard-Medium";
+}
+
+.f__regular {
+  font-family: "Pretendard-Regular";
+}
+
+.f__light {
+  font-family: "Pretendard-Light";
+}
+
+main {
+  height: 100%;
+}
+
+main .main__inner {
+  margin: 0 auto;
+  height: 100%;
+}
+main .main__inner > .notice__txt {
+  font-size: 24px;
+  line-height: 38px;
+}
+
+/* @media screen and (max-height: 650px){
+  
+} */

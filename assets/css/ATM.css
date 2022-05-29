@@ -1,0 +1,54 @@
+.main__inner > h3 {
+  line-height: 48px;
+  font-size: 16px;
+  text-align: right;
+  margin-top: 40px;
+  height: 48px;
+  background: red;
+  box-sizing: border-box;
+  padding: 0 16px;
+  color: white;
+  background: url(../img/ATM/text_bg.svg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.main__inner .button__box__wrap {
+  padding: 16px;
+  box-sizing: border-box;
+  background: #f7fafa;
+  height: 100%;
+}
+.main__inner .button__box__wrap > div {
+  display: flex;
+  justify-content: space-between;
+}
+.main__inner .button__box__wrap > div ul {
+  display: flex;
+  flex-direction: column;
+}
+.main__inner .button__box__wrap > div ul li {
+  margin-bottom: 16px;
+  padding: 3px 16px;
+  background: #00ad87;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  line-height: 38px;
+  font-size: 16px;
+  text-align: center;
+}
+.main__inner .button__box__wrap > div ul:first-of-type li {
+  float: left;
+}
+.main__inner .button__box__wrap > div ul:nth-of-type(2) li {
+  float: right;
+}
+.main__inner .button__box__wrap > div ul li:last-of-type {
+  margin-bottom: 0px;
+}
+.main__inner .button__box__wrap > div ul li.cancel__btn {
+  background: #f9a825;
+}
+
+.main__inner .button__box__wrap > div.second__step__wrap {
+  display: none;
+}
