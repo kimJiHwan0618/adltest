@@ -38,9 +38,11 @@
 }
 .main__inner .button__box__wrap > div ul:first-of-type li {
   float: left;
+  cursor: pointer;
 }
 .main__inner .button__box__wrap > div ul:nth-of-type(2) li {
   float: right;
+  cursor: pointer;
 }
 .main__inner .button__box__wrap > div ul li:last-of-type {
   margin-bottom: 0px;

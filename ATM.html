@@ -20,29 +20,49 @@
           <div class="button__box__wrap">
             <div class="first__step__wrap">
               <ul>
-                <li class="f__regular">예금인출</li>
-                <li class="f__regular">예금조회</li>
-                <li class="f__regular">계좌이체</li>
-                <li class="f__regular">입금</li>
+                <li class="f__regular" onclick="step1Click('예금인출')">
+                  예금인출
+                </li>
+                <li class="f__regular" onclick="step1Click('예금조회')">
+                  예금조회
+                </li>
+                <li class="f__regular" onclick="step1Click('계좌이체')">
+                  계좌이체
+                </li>
+                <li class="f__regular" onclick="step1Click('입금')">입금</li>
               </ul>
               <ul>
-                <li class="f__regular">신용카드</li>
+                <li class="f__regular" onclick="step1Click('신용카드')">
+                  신용카드
+                </li>
               </ul>
             </div>
             <!-- 1step -->
 
             <div class="second__step__wrap">
               <ul>
-                <li class="f__regular">3만원</li>
-                <li class="f__regular">5만원</li>
-                <li class="f__regular">10만원</li>
-                <li class="f__regular">15만원</li>
+                <li class="f__regular" onclick="step2Click('30,000')">3만원</li>
+                <li class="f__regular" onclick="step2Click('50,000')">5만원</li>
+                <li class="f__regular" onclick="step2Click('100,000')">
+                  10만원
+                </li>
+                <li class="f__regular" onclick="step2Click('150,000')">
+                  15만원
+                </li>
               </ul>
               <ul>
-                <li class="f__regular">20만원</li>
-                <li class="f__regular">25만원</li>
-                <li class="f__regular">30만원</li>
-                <li class="f__regular cancel__btn">취소</li>
+                <li class="f__regular" onclick="step2Click('200,000')">
+                  20만원
+                </li>
+                <li class="f__regular" onclick="step2Click('250,000')">
+                  25만원
+                </li>
+                <li class="f__regular" onclick="step2Click('300,000')">
+                  30만원
+                </li>
+                <li class="f__regular cancel__btn" onclick="step2Click('취소')">
+                  취소
+                </li>
               </ul>
             </div>
             <!-- 2step -->
@@ -50,7 +70,7 @@
         </div>
       </main>
     </div>
-    <!-- <script src="./assets/js/bridge.js"></script> -->
+    <script src="./assets/js/bridge.js"></script>
     <script src="./assets/js/ATM.js"></script>
   </body>
 </html>

@@ -9,23 +9,27 @@ const shuffle = (array) => {
 };
 shuffle(randomArr);
 
-$(".random__text").text(toCommaString(randomArr[0]));
+document.querySelector(".random__text").textContent = toCommaString(
+  randomArr[0]
+);
+// 테스트 수정 06_22
+// $(".random__text").text(toCommaString(randomArr[0]));
 
-$(".first__step__wrap ul li").click(function () {
-  if ($(this).text() === "예금인출") {
+const step1Click = (txt) => {
+  if (txt === "예금인출") {
     $(".first__step__wrap").css("display", "none");
     $(".second__step__wrap").css("display", "flex");
   } else {
     alert("지문을 다시 읽고\n지시에 따라 행동하세요");
   }
-});
+};
 
-$(".second__step__wrap ul li").click(function () {
-  if ($(this).text() !== "취소") {
-    if (
-      $(".random__text").text() ===
-      toCommaString($(this).text().replace("만원", "") + "0000")
-    ) {
+// 테스트 수정 06_22
+// $(".first__step__wrap ul li").click(function () {});
+
+const step2Click = (txt) => {
+  if (txt !== "취소") {
+    if ($(".random__text").text() === txt) {
       alert("성공");
       fn_callNative(true);
     } else {
@@ -36,4 +40,7 @@ $(".second__step__wrap ul li").click(function () {
     $(".first__step__wrap").css("display", "flex");
     $(".second__step__wrap").css("display", "none");
   }
-});
+};
+
+// 테스트 수정 06_22
+// $(".second__step__wrap ul li").click(function () {});
